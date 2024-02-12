@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Andika:wght@700&display=swap');
+
+*{
+    padding: 0;
+    font-family: 'Andika', sans-serif;
+}
+body{
+    background-color: #14BDEB;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+
+}
+.container{
+    display: flex;
+  flex-direction: column;
+   justify-content: center;
+   align-items: center;
+  background: #D99AC5;
+  height: 40vh;
+  width: 40vh;
+  border-radius: 10px;
+   
+}
+label {
+    padding: 10px;
+    margin-left: 55px;
+}
+input{
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+}
+#btn{
+  
+    padding: 6px;
+    width: 100px;
+    margin:10px ;
+    margin-left: 25px;
+    border-radius: 5px;
+    
+}
+#btn:hover{
+    background: #A01D1E;
+    color: white;
+}
+.list{
+    display: flex;
+
+    background: #011811;
+    color: #fff;
+    width: 200px;
+
+}
+.delete-btn{
+    background: #A01D1E;
+    width: 24px;
+    margin: 10px;
+    color: #fff;
+    margin-left: 80px;
+}
